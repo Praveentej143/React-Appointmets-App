@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.appointment-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointments-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 16px;
+  padding: 5px 15px;
+  width: 300px;
+}
+.app-title {
+  color: #171f46;
+  font-weight: bold;
+}
+.star {
+  width: 22px;
+  height: 22px;
+}
+.list-items {
+  margin: 10px;
+}
+.date-appointed {
+  color: #b5b7c4;
+  font-size: 14px;
+}
+.star-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

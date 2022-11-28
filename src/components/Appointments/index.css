@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.app-container {
+  background: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  align-items: center;
+}
+.card-container {
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 100px;
+}
+.card-heading {
+  color: #171f46;
+}
+.user-input-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  /* border: 1px solid red; */
+}
+.user-input-container {
+  /* border: 1px solid red; */
+  width: 25%;
+}
+.title {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 12px;
+}
+.date {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 12px;
+}
+.user-title-input {
+  outline: none;
+  padding: 8px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.date-input {
+  outline: none;
+  padding: 8px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+}
+.submit-btn {
+  outline: none;
+  border: none;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.img {
+  width: 90%;
+  align-self: flex-start;
+}
+.appointments-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-btn {
+  border: 1px solid #9897f0;
+  border-radius: 16px;
+  color: #9897f0;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.filter-active {
+  border: 1px solid #9897f0;
+  border-radius: 16px;
+  color: #ffffff;
+  background-color: #9897f0;
+
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+.heading {
+  color: #171f46;
+}
